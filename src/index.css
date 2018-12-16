@@ -1,14 +1,51 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#Simon {
+  display: flex;
+  flex-direction: column;
+}
+
+.Simon__child {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-button {
+  width: 120px;
+  height: 120px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.lower-button {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  color: #E8E2DE;
+}
+
+.count {
+  margin-top: 1em;
+}
+
+.title {
+  margin: auto;
+  margin-top: .5em;
+}
+
+.subtitle {
+  margin-bottom: 2em;
 }
